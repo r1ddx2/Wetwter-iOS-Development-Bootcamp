@@ -1,54 +1,86 @@
+# Bitcon-iOS-Development-Bootcamp
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
-#  Clima
-
-## Our Goal
-
-It’s time to take our app development skills to the next level. We’re going to introduce you to the wonderful world of Application Programming Interfaces (APIs) to grab live data from the internet. If you’re dreaming of making that Twitter-powered stock trading app then you’re about add some serious tools to your toolbelt!
+<!--
+*** Hello! I am currently practicing building iOS Apps.
+*** This is my own modified version of ByteCoin from Angela Yu - The Complete iOS Development Bootcamp
+-->
 
 
-## What you will create
+<!-- PROJECT LOGO -->
+<div align="center">
+  <a href="https://github.com/r1ddx2/Bitcon-iOS-Development-Bootcamp">
+    <img src="wetwterLogo.png" alt="Logo" width="150" height="150">
+  </a>
+<h3 align="center">Bitcon</h3>
+  <p align="center">
+    A real time weather app
+  </p>
+</div>
 
-By the end of the module, you will have made a beautiful, dark-mode enabled weather app. You'll be able to check the weather for the current location based on the GPS data from the iPhone as well as by searching for a city manually. 
 
-## What you will learn
 
-* How to create a dark-mode enabled app.
-* How to use vector images as image assets.
-* Learn to use the UITextField to get user input. 
-* Learn about the delegate pattern.
-* Swift protocols and extensions. 
-* Swift guard keyword. 
-* Swift computed properties.
-* Swift closures and completion handlers.
-* Learn to use URLSession to network and make HTTP requests.
-* Parse JSON with the native Encodable and Decodable protocols. 
-* Learn to use Grand Central Dispatch to fetch the main thread.
-* Learn to use Core Location to get the current location from the phone GPS. 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+     </li>
+    <li><a href="#installation>Installation</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-### Condition Codes
-```
-switch conditionID {
-        case 200...232:
-            return "cloud.bolt"
-        case 300...321:
-            return "cloud.drizzle"
-        case 500...531:
-            return "cloud.rain"
-        case 600...622:
-            return "cloud.snow"
-        case 701...781:
-            return "cloud.fog"
-        case 800:
-            return "sun.max"
-        case 801...804:
-            return "cloud.bolt"
-        default:
-            return "cloud"
-        }
-```
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
 
-![End Banner](Documentation/readme-end-banner.png)
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<div align="center" style="display: inline-block;">
+    <img src="WetwterDemo.png" alt="ScreenLight">
+
+
+</div>
+
+                                                              
+                                                                                                                  
+  </br>
+ 
+  [Wetwter](https://github.com/r1ddx2/Wetwter-iOS-Development-Bootcamp) is a single view app that fetches the current weather temperature and condition through [OpenWeatherAPI](https://home.openweathermap.org/users/sign_in). <br>
+  User can get the weather temperature and weather condition by pressing the core location button on the upper-left corner or by searching the city name. <br>
+  I am currently learning iOS development and this is a simple practice on how to work with REST APIs. <br>
+  This is a modified version of [Clima](https://github.com/appbrewery/Clima-iOS13). I did some adjustments on the user interface. 
+  
+### Built With
+
+* [Swift](https://developer.apple.com/swift/)
+            
+<!-- INSTALLATION -->
+## Installation
+ 
+1. Get a free API Key at [OpenWeatherAPI](https://home.openweathermap.org/users/sign_in)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+3. Navigate to "Clima/Model/WeatherAPI.swift" file
+   ```sh
+   cd Clima/Model/WeatherAPI.swift
+   ```
+4. Enter your API in `WeatherAPI.swift` and replace `YOUR_API_KEY`
+5. Run the project
+6. Press "Allow" for [Wetwter](https://github.com/r1ddx2/Wetwter-iOS-Development-Bootcamp) to access your location
+            
+ 
+           
+            
+            
+            
+<!-- CONTACT -->
+## Contact
+
+Red Wang 
+- Email : r1ddx09@gmail.com
+- Twitter: [@r1ddx](https://twitter.com/r1ddx) 
