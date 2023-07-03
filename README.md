@@ -50,7 +50,7 @@
  
   [Wetwter](https://github.com/r1ddx2/Wetwter-iOS-Development-Bootcamp) is a single view app that fetches the current weather temperature and condition through [OpenWeatherAPI](https://home.openweathermap.org/users/sign_in). <br>
   User can get the weather temperature and weather condition by pressing the core location button on the upper-left corner or by searching the city name. <br>
-  I am currently learning iOS development and this is a simple practice on how to work with REST APIs. <br>
+  I am currently learning iOS development and this is a simple practice on how to work with APIs. <br>
   This is a modified version of [Clima](https://github.com/appbrewery/Clima-iOS13). I did some adjustments on the user interface. 
   
 ### Built With
